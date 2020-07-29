@@ -1,5 +1,3 @@
-import { Color } from 'react-color';
-
 interface ColorSettings {
     spin: number;
     saturate: number;
@@ -12,4 +10,18 @@ export interface DarkColorSettings extends ColorSettings {
 
 export interface LightColorSettings extends ColorSettings {
     lightness: number;
+}
+
+interface ColorSettingsLimit {
+    step: number;
+    min: number;
+    max: number;
+}
+
+export interface ColorSettingsLimits {
+    spin: ColorSettingsLimit;
+    saturate: ColorSettingsLimit;
+    size: ColorSettingsLimit;
+    darkness: ColorSettingsLimit;
+    lightness: ColorSettingsLimit;
 }

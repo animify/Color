@@ -94,9 +94,9 @@ export default function App() {
                                 transform: color.equals(hoveringColor) ? 'scale(1.1)' : 'scale(1)',
                                 zIndex: color.equals(hoveringColor) ? 10 : 1,
                                 borderRadius: color.equals(hoveringColor) ? 6 : undefined,
-                                transition: 'transform 70ms ease',
-                                ':first-of-type': { borderRadius: '6px 0 0 6px' },
-                                ':last-of-type': { borderRadius: '0 6px 6px 0' },
+                                transition: 'all 70ms ease',
+                                ':first-of-type': { borderTopLeftRadius: 6, borderBottomLeftRadius: 6 },
+                                ':last-of-type': { borderTopRightRadius: 6, borderBottomRightRadius: 6 },
                             })}
                         />
                     ))}
