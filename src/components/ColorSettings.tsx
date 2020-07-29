@@ -56,7 +56,7 @@ export default function ColorSettings({ onChange, settings }: Props) {
                         onChange={handleChange(key)}
                         {...limits[key]}
                     />
-                    <Slider progress={value} onChange={handleChange(key)} {...limits[key]} />
+                    <Slider value={value} progress={value} onChange={handleChange(key)} {...limits[key]} />
                 </Flex>
             ))}
         </Flex>
