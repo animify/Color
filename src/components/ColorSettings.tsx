@@ -49,14 +49,17 @@ export default function ColorSettings({ onChange, settings }: Props) {
                         {key}
                     </Text>
 
-                    <Input
-                        type="number"
-                        value={value}
-                        placeholder={key}
-                        onChange={handleChange(key)}
-                        {...limits[key]}
-                    />
-                    <Slider value={value} progress={value} onChange={handleChange(key)} {...limits[key]} />
+                    <Flex align="center">
+                        <Input
+                            width={150}
+                            type="number"
+                            value={value}
+                            placeholder={key}
+                            onChange={handleChange(key)}
+                            {...limits[key]}
+                        />
+                        <Slider ml="6" value={value} progress={value} onChange={handleChange(key)} {...limits[key]} />
+                    </Flex>
                 </Flex>
             ))}
         </Flex>

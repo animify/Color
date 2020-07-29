@@ -6503,10 +6503,10 @@ signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
   integrity sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==
 
-silicon.ui@^0.0.16:
-  version "0.0.16"
-  resolved "https://registry.yarnpkg.com/silicon.ui/-/silicon.ui-0.0.16.tgz#80fc6dc05bf72b08a52653e368124bb78daca9b6"
-  integrity sha512-bIcEuwqEHw35uEA9wFi+8P+gnU46oh/STChJHK0QNPjW9I/oYqXehWwiTdD0ws7k2kZnw6JeZco51Ce+i8xTqw==
+silicon.ui@^0.0.17:
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/silicon.ui/-/silicon.ui-0.0.17.tgz#2ad648ebde8d858003a692ae8b9182a2521d557e"
+  integrity sha512-tRQGiZ3TM5sKbFPoTN1THwk3OAhI4ojgQ7J68u+4slZdB3HYTLN5wvhL3GkO9jg/nOw1Qsgijq7raF3S48S7Pg==
   dependencies:
     classnames "^2.2.6"
     fela "^11.3.0"
